@@ -1,0 +1,331 @@
+@charset "utf-8";
+/*
+ * CSS Document S.E.N.
+ * layout definition
+ */
+ 
+
+input{
+	height:16px;
+	padding:1px;
+	background:url()left no-repeat;
+	border: 0;
+	color: #000;
+}
+
+
+input.basic {
+	height:14px;
+	padding:1px;
+	border: 1px solid #8399b8;
+	background-color: #fff;
+}
+
+input.date{width: 90px;}
+input.code{width: 56px;}
+input.name{width: 90px; }
+input.code_s{width: 46px;}
+input.name_s{width: 60px;}
+input.name_s01{width: 164px;}
+input.name_s02{width: 400px;}
+input.time{width: 60px;text-align:center;}
+input.value{width: 80px;text-align: right;}
+input.mm{width: 40px;text-align:center;}
+input.num{width: 100px; }
+input.num_s{width: 50px;}
+input.sort{width: 100px;}
+input.id{width: 120px;}
+input.pass{width: 120px;}
+input.value_s{width: 60px; text-align: right;}
+input.datentime{width: 120px;text-align:center;}
+input.code_b{width: 120px;}
+input.phone{width: 50px;} 
+input.email{width: 130px;} 
+input.post{width: 50px;} 
+input.visit{width: 50px; text-align:center;}
+input.detail {width: 170px;}
+
+input.sbox{width: 20px;} 
+input.num_xs{width: 30px;}
+
+input.name_s01p{width: 94%;}
+input.name_s02p{width: 50%;}
+input.name_s03p{width: 98%;}
+input.name_s04p{width: 40%;} 
+input.name_s05p{width: 30%;} 
+input.name_s06p{width: 60%;} 
+input.name_s07p{width: 70%;} 
+input.name_s08p{width: 80%;} 
+input.name_s09p{width: 90%;} 
+input.name_s99p{width: 99%;} 
+input.off{background: #efefef; color: #999999;border: 1px solid #c5c8cd;}
+input.help{background: #60cd84; color: #999999;border: 1px solid #60cd84;}
+input.help_pr{background: #d0f294; color: #999999;border: 1px solid #afcf76;} 
+input.text-right{text-align: right;}
+
+
+input.talk_90p{width: 90%; margin-left: 10px; margin-top: 6px;	height:17px; padding:1px; color: #619dc3;} 
+
+select{
+	height:26px;
+	padding:2px;
+	border: solid 1px #c8c8c8;
+}
+
+select option{
+	font-size: 15px;
+}
+
+select.off{
+	height:19px;
+	padding:1px 1px 1px 1px;
+	background: #efefef; 
+	color: #999999;
+}
+
+input.type-radio{width:14px; height:14px;}
+*.irt {	/* Image Replacement Technic */
+	display: none;
+}
+.radio {margin: 0 -3px 0 -5px; border: none !important; border: 0; background-color: transparent;}
+:root .radio {margin: -2px 0 0 0;}
+.check {margin: -1px 0 0 -5px; border: none !important; border: 0; background-color: transparent;}
+:root .check {margin:  -1px 0 0 0;}
+
+textarea {
+	padding:0;
+	border: 0px solid #8399b8;
+	background-color: #fff;
+	overflow:auto;
+	scrollbar-face-color:white;
+	scrollbar-highlight-color:#BFBFBF;
+	scrollbar-3dlight-color:white;
+	scrollbar-shadow-color:#BFBFBF;
+	scrollbar-darkshadow-color:white;
+	scrollbar-arrow-color:#BFBFBF;
+	scrollbar-track-color:white;
+	color : #888888;
+}
+
+textarea.off{background: #efefef; color: #999999;border: 1px solid #c5c8cd;} 
+
+textarea.name_s01p{width: 98%; border: 1px solid #abadb3;}
+textarea.name_s02p{width: 95%; border: 1px solid #abadb3;}
+
+radio{width:14px; height:12px;}
+
+.space100 {height:100px; font-size:1px; clear: both;}
+.space70 {height:70px; font-size:1px; clear: both;}
+.space65 {height:65px; font-size:1px; clear: both;}
+.space60 {height:60px; font-size:1px; clear: both;}
+.space55 {height:55px; font-size:1px; clear: both;}
+.space50 {height:50px; font-size:1px; clear: both;}
+.space45 {height:45px; font-size:1px; clear: both;}
+.space40 {height:40px; font-size:1px; clear: both;}
+.space36 {height:36px; font-size:1px; clear: both;} 
+.space35 {height:35px; font-size:1px; clear: both;}
+.space32 {height:32px; font-size:1px; clear: both;}
+.space30 {height:30px; font-size:1px; clear: both;}
+.space25 {height:25px; font-size:1px; clear: both;}
+.space24 {height:24px; font-size:1px; clear: both;}
+.space23 {height:23px; font-size:1px; clear: both;}
+.space22 {height:22px; font-size:1px; clear: both;}
+.space21 {height:21px; font-size:1px; clear: both;}
+.space20 {height:20px; font-size:1px; clear: both;}
+.space19 {height:19px; font-size:1px; clear: both;}
+.space18 {height:18px; font-size:1px; clear: both;}
+.space17 {height:17px; font-size:1px; clear: both;}
+.space16 {height:16px; font-size:1px; clear: both;}
+.space15 {height:15px; font-size:1px; clear: both;}
+.space14 {height:14px; font-size:1px; clear: both;}
+.space13 {height:13px; font-size:1px; clear: both;}
+.space12 {height:12px; font-size:1px; clear: both;}
+.space11 {height:11px; font-size:1px; clear: both;}
+.space10 {height:10px; font-size:1px; clear: both;}
+.space9 {height:9px; font-size:1px; clear: both;}
+.space8 {height:8px; font-size:1px; clear: both;}
+.space7 {height:7px; font-size:1px; clear: both;}
+.space6 {height:6px; font-size:1px; clear: both;}
+.space5 {height:5px; font-size:1px; clear: both;}
+.space4 {height:4px; font-size:1px; clear: both;}
+.space3 {height:3px; font-size:1px; clear: both;}
+.space2 {height:2px; font-size:1px; clear: both;}
+.space1 {height:1px; font-size:1px; clear: both;}
+.space0 {height:0px; font-size:0px; clear: both;}
+.frc {text-align: center;}
+
+.size-15 {width:15px; clear: both;}
+.size-20 {width:20px; clear: both;}
+.size-30 {width:30px; clear: both;}
+.size-35 {width:35px; clear: both;}
+.size-40 {width:40px; clear: both;}
+.size-50 {width:50px; clear: both;}
+.size-70 {width:70px; clear: both;}
+.size-80 {width:80px; clear: both;}
+.size-90 {width:90px; clear: both;}
+.size-100 {width:100px; clear: both;}
+.size-110 {width:110px; clear: both;}
+.size-120 {width:120px; clear: both;}
+.size-130 {width:130px; clear: both;}
+.size-140 {width:140px; clear: both;}
+.size-150 {width:150px; clear: both;}
+.size-160 {width:160px; clear: both;}
+.size-170 {width:170px; clear: both;}
+.size-180 {width:180px; clear: both;}
+.size-190 {width:190px; clear: both;}
+.size-200 {width:200px; clear: both;}
+.size-215 {width:215px; clear: both;}
+.size-219 {width:219px; clear: both;}
+.size-220 {width:220px; clear: both;}
+.size-280 {width:280px; clear: both;}
+.size-300 {width:300px; clear: both;}
+.size-400 {width:400px; clear: both;}
+.size-450 {width:450px; clear: both;}
+.size-500 {width:500px; clear: both;}
+.size-600 {width:600px; clear: both;}
+.size-700 {width:700px; clear: both;}
+.size-90p {width:90%; clear: both;}
+.size-99p {width:99%; clear: both;}
+.size-95p {width:95%; clear: both;}
+.size-98p {width:98%; clear: both;}
+.size-97p {width:97%; clear: both;}
+.size-40p {width:40%; clear: both;}
+.size-100p {width:100%; clear: both;}
+
+
+
+.font-color-red {color: #df0000;}
+.font-color-blue {color: #003366;}
+.font-color-blue2 {color: #0000cc;}
+.font-color-bgray {color: #333333;}
+.font-color-ygray {color: #999999;}
+.font-color-red-bold-11 {color: #df0000; font-weight: bold; font-size: 11px; font-family: dotum;}
+
+.font-type {font-family:dotum;}
+.font-type-bold {font-weight:bold;}
+
+
+.padding-left-50 {padding-left: 50px;}
+.padding-left-5 {padding-left: 5px;}
+.padding-left-10 {padding-left: 10px;}
+.padding-left-20 {padding-left: 20px;}
+.padding-right-10 {padding-right: 5px;}
+.padding-top-5 {padding-top: 5px;}
+.padding-top-4 {padding-top: 4px;} 
+.padding-top-0 {padding-top: 0px !important;} 
+.padding-top-10 {padding-top: 10px;} 
+.padding-top-20 {padding-top: 20px;} 
+.padding-top-40 {padding-top: 40px;} 
+.padding-bottom-5 {padding-bottom: 5px;}
+.padding-bottom-15 {padding-bottom: 15px;}
+.padding-bottom-100 {padding-bottom: 100px;}
+
+.margin-left-50 {margin-left: 50px;}
+.margin-left-20 {margin-left: 20px;}
+.margin-top-15 {margin-top: 15px;}
+
+.height-120 {height: 120px;}
+.height-125 {height: 125px;}
+.height-130 {height: 130px;}
+.height-135 {height: 135px;}
+.height-250 {height: 250px;}
+.height-300 {height: 300px;}
+
+.min-height-300 {min-height: 300px; display:block;}
+.height-195 {height: 195px; display:block;overflow:auto;}
+
+.vertical-top {vertical-align:top}
+
+
+.info_text_s {float: left; padding-top: 6px;}
+
+/* grid높이 추가분 */
+div.grid_height_298 {height: 298px;}
+
+span.data_in {width: 100px;}
+.text-right {text-align: right;}
+
+.txt_info_single{color: #333333; padding-top: 8px;}
+.txt_info_single_in{color: #333333; padding-top: 3px; line-height: 1.3em;} /* 11.22추가 두번째라인부터 */
+/*.attach_sign{background:url(../img/contents/re.gif) top left no-repeat; padding-left: 9px; }*/
+
+span.btn_no {display:inline-block;padding:0px 0px 0px 10px; margin-top: 3px;}
+
+.font-size-16{font-size: 16px}
+.font-size-30{font-size: 30px}
+.font-size-40{font-size: 40px}
+.font-name-arial {	font-family: arial;}
+
+
+/* time-list 방송용 일회성 */
+table.tbl_timeList {width:100%; border-top:solid 1px #dadada;border-left:solid 1px #dadada;border-bottom:solid 1px #dadada;}
+table.tbl_timeList th {border-right:solid 1px #dadada;background: #f4f4f4;line-height:1.3em;color: #222222; white-space: nowrap; padding:2px 4px; vertical-align: middle; height: 30px; font-size: 14px; }
+table.tbl_timeList td {border-right:solid 1px #dadada;background: #ffffff;color: #666666; padding: 2px 4px;text-align:center;line-height:1.3em; white-space: nowrap; vertical-align: middle; height: 65px; font-weight: bold;}
+
+
+/* 방송용 color  */
+table.tbl_List .color_01 {background: #f3b9ff;}
+table.tbl_List .color_02 {background: #e6f7c6;}
+table.tbl_List .color_03 {background: #f7e7c6;}
+table.tbl_List .color_04 {background: #c6e4f7;}
+table.tbl_List .color_05 {background: #ffc3b9;}
+
+.font-type-light{font-weight: lighter;}
+
+.four-padding-leftright {padding: 0 10px;}
+.four-padding-left-0 {padding: 0 10px 0 0;}
+.four-padding-right-0 {padding: 0 0 0 10px;}
+
+.font-size-11{font-size: 11px;}
+.letter-loss{letter-spacing: -1px;} 
+
+/*.end_line {background:url("../image/layout/bottom_pattern.gif") left bottom repeat; height: 5px;} /*/
+
+
+/** 인풋에서 한영 모드 고정  **/
+input.han {ime-mode:active;} /** 한글이 기본 Default **/
+input.eng {ime-mode:inactive;} /** 영문이 기본 Default **/
+input.eng_only {ime-mode:disable;} /** 영문만 사용 **/
+
+
+/* input */
+input[type="checkbox"] {
+    position:absolute;
+    top:-30px;
+    left:-2000px;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:17px;
+    height:17px;
+    vertical-align:middle;
+    background:url(../img/check/checkbox_off.png) left top no-repeat;
+    cursor:pointer;
+	z-index: 2;
+}
+input[type="checkbox"]:checked + label span {
+    background:url(../img/check/checkbox_on.png) left top no-repeat;
+}
+label.checkbox_checked span {
+    background:url(../img/check/checkbox_on.png) left top no-repeat !important;
+}
+
+input[type="radio"] {
+    position:absolute;
+    top:-30px;
+    left:-2000px;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:17px;
+    height:17px;
+    vertical-align:middle;
+    background:url(../img/check/radio_off.png) left top no-repeat;
+    cursor:pointer;
+}
+input[type="radio"]:checked + label span {
+    background:url(../img/check/radio_on.png) left top no-repeat;
+}
+label.radio_checked span {
+    background:url(../img/check/radio_on.png) left top no-repeat !important;
+}
